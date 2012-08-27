@@ -1,0 +1,123 @@
+	body {
+		margin:0px 0px 0px 0px;
+		padding:0px;
+		background:#000000;
+		}
+		
+		a {
+			color: blue;
+			font-weight: bolder;
+			font-variant: small-caps;
+			font-family: Georgia, Times New Roman, Times, serif;
+}
+
+A{color:#0066FF; font-family:serif; font-size:medium; font-weight:bold; text-decoration:underline; }
+A:Visited{color:#green; font-family:serif; font-size:medium; font-weight:bold; text-decoration:underline; }
+A:Hover{color:#FFFFFF; background-color:#0033FF; font-family:serif; font-size:medium; font-weight:bold; text-decoration:underline; }
+	
+	#leftcontent {
+		position: absolute;
+		left:70px;
+		top:110px;
+		width:200px;
+		background:#472212;
+		border:1px solid #000;
+	color: white;
+}
+
+	#centercontent {
+		position: absolute;
+		left:110px;
+		top:110px;
+		width:400px;
+		background:#fff;
+                opacity:.80; 
+		border:1px solid #000;
+                
+		/*
+		IE5x PC mis-implements the box model. Because of that we sometimes have
+		to perform a little CSS trickery to get pixel-perfect display across browsers.
+		The following bit of code was proposed by Tantek Celik, and it preys upon a CSS
+		parsing bug in IE5x PC that will prematurly close a style rule when it runs
+		into the string "\"}\"". After that string appears in a rule, then, we can override
+		previously set attribute values and only browsers without the parse bug will
+		recognize the new values. So any of the name-value pairs above this comment
+		that we need to override for browsers with correct box-model implementations
+		will be listed below.
+		
+		We use the voice-family property because it is likely to be used very infrequently,
+		and where it is used it will be set on the body tag. So the second voice-family value 
+		of "inherit" will override our bogus "\"}\"" value and allow the proper value to
+		cascade down from the body tag.
+
+		The style rule immediately following this rule offers another chance for CSS2
+		aware browsers to pick up the values meant for correct box-model implementations.
+		It uses a CSS2 selector that will be ignored by IE5x PC.
+		
+		Read more at http://www.glish.com/css/hacks.asp
+		*/
+		
+		voice-family: "\"}\"";
+		voice-family: inherit;
+   		margin-left: 201px;
+   		margin-right:201px;
+		}
+	html>body #centercontent {
+   		margin-left: 201px;
+   		margin-right:201px;
+		}
+
+	#rightcontent {
+		position: absolute;
+		left:762px;
+		top:110px;
+		width:200px;
+		background:#e9e4ce;
+                
+		border:1px solid #000;
+		}
+
+	#calendarcolumn {
+		position: absolute;
+		left:800px;
+		top:224px;
+		width:160px;
+		background:#e9e4ce;
+                
+		border:1px solid #000;
+		}
+
+	#banner {
+		background:#fff;
+		height:40px;
+		border-top:1px solid #000;
+		border-right:1px solid #000;
+		border-left:1px solid #000;
+		voice-family: "\"}\"";
+		voice-family: inherit;
+		height:39px;
+		}
+	html>body #banner {
+		height:39px;
+		}
+		
+	p,h1,pre {
+		margin:5px 10px 10px 10px;
+		}
+		
+	h1 {
+		font-size: 18px;
+		padding-top: 2px;
+	font-variant: small-caps;
+}
+    .mini {
+         padding-top: 10px;
+	font: lighter 9px Verdana, Arial, Helvetica, sans-serif;
+}
+	#banner h1 {
+		font-size:14px;
+		padding:10px 10px 0px 10px;
+		margin:0px;
+		}
+	
+	

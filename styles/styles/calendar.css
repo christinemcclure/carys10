@@ -1,0 +1,137 @@
+<!-- /*
+ * $Id: calendar.css,v 1.7 2006/08/15 18:23:28 espergreen Exp $
+ * Derived from a style sheet Copyright Isaac McGowan, used under GPL.
+ * This file is licensed under the GPL version 2 and is provided without warranty.
+ * See http://www.gnu.org/copyleft/gpl.html for license details.
+ */ /**************************************************************
+********* Formatting For Month Table and Text *****************
+**************************************************************/
+	/**** month and year header at top of calendar ****/
+body {
+		margin:0px 0px 0px 0px;
+		padding:0px;
+		background:#000000;
+		}
+td {
+	background:#ffffff;
+}
+
+.date_header {
+	font-size: 16px;
+	font-family: arial, helvetica;
+	font-weight: bold;
+        color: white;
+}
+
+/**** color and size of calendar cells.  ****/
+.day_cell {
+	background-color: #EDECD8;
+	height: 80px;
+	width: 90px
+}
+
+.empty_day_cell {
+	background-color: #EEEEEE;
+	height: 80px;
+	width: 90px
+}
+
+.today_cell {
+	background-color: #F5F4ED;
+	height: 80px;
+	width: 90px
+}
+
+/**** day number in upper left corner of each cell ****/
+.day_number {
+	font-size: 10px;
+	font-family: verdana, arial, helvetica;
+	color: #000
+}
+
+.day_number A:link {
+	color: #00F;
+	text-decoration: underline
+}
+
+.day_number A:active {
+	color: #00F;
+	text-decoration: underline
+}
+
+.day_number A:visited {
+	color: #00F;
+	text-decoration: underline
+}
+
+.day_number A:hover {
+	color: #00F;
+	text-decoration: underline
+}
+
+/**** title_txt is the text for each post on main page ****/
+.title_txt {
+	font-size: 10px;
+	line-height: 16px;
+	font-family: verdana, arial, helvetica;
+	color: #000;
+}
+
+.title_txt A:link {
+	color: #o3f;
+	text-decoration: underline
+}
+
+.title_txt A:active {
+	color: #f09;
+	text-decoration: underline
+}
+
+.title_txt A:visited {
+	color: #ccc;
+	text-decoration: underline
+}
+
+.title_txt A:hover {
+	color: #ff3;
+	text-decoration: underline
+}
+
+/**** time line under title text when event time given ****/
+.time_str {
+	font-size: 9px;
+	font-family: arial, helvetica;
+	color: #fff;
+}
+
+/**** column headers or days of the week ****/
+.column_header {
+	background-color: #72747A;
+	font-size: 12px;
+	font-family: arial, helvetica;
+	color: #FFFFFF;
+	font-weight: bold
+}
+
+/**** footprint text ****/
+.footprint {
+	font-size: 10px;
+	font-family: verdana, arial, helvetica;
+	color: #000;
+	font-weight: bold;
+	margin-top: 5px
+}
+
+.footprint A {
+	font-size: 10px;
+	font-family: verdana, arial, helvetica;
+	color: #00F;
+	font-weight: bold;
+	margin-top: 5px
+}
+//
+end
+
+hiding
+
+-->

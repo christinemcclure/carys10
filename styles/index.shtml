@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Cary's Lounge Chicago
+|| 2251 W Devon || 773 743 5737 || free pool || cheap beer || live music </title>
+<link rel="stylesheet" type="text/css" href="styles/carys_style0001.css"></head>
+<body>
+<img style="width: 960px; height: 225px;" alt="cary's header" src="images/billiard_top_960_225.jpg" hspace="0" vspace="0">
+<div id="leftcontent"><img style="width: 200px; height: 714px;" alt="Cary's Sign" src="images/neon_sign200.jpg"> 
+
+</div>
+<div id="centercontent"><p></p>
+<h1>Welcome to the web presence of Cary's Lounge</h1>
+
+<img style="width: 400px; height: 103px;" alt="Cary's interior" src="images/inside400_103.jpg"> 
+
+<p>We're not going to lie to you (not yet).  This is a family owned neighborhood tavern.  We're not reinventing the wheel.  Free Wi-Fi and Free Pool. And according to <a href="http://www.timeout.com/chicago/ target="blank">TimeOut Chicago</a> a 'stash of frisky regulars.' Not paradise but it's pretty close!</p>
+
+<p>Check out our <a href="http://www.myspace.com/caryslounge" target="blank">myspace page</a>.  Leave comments, be our 'friend'-- all that good stuff.
+
+<p>Book your band here. Click <a href="music.shtml">here</a> for more details or contact <a href="mailto:stacykapas@hotmail.com">Stacy</a></p>
+
+<p>Or better yet-- come see a band here. See <a href="directions.shtml">directions</a> for where-- See the <a href="/calendar3/">calendar</a> for when.
+
+
+
+
+<p class="mini">2251 W.
+Devon <br>
+Chicago, IL 60659 <br>
+773.743.5737<br>
+
+Hours: Mon-Fri 7:00am ~ 2:00am <br>
+Sat 7:00am ~ 3:00am<br>
+Sun 11:00am ~ 2:00am<br>
+</p>
+
+
+
+
+
+
+
+
+
+</p></div><div id="rightcontent"><img style="width: 200px; height: 269px;" alt="blind date" src="right_200_269.jpg">
+
+<!--#include file="nav.txt"-->
+
+
+
+</div></body></html>
